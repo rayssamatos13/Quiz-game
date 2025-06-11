@@ -1,61 +1,59 @@
 
 body {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
+
 .tela-inicial {
   width: 100%;
   height: 100vh;
-  background: yellow;
+  background: #1b0033;
   text-align: center;
 }
 
-.logo{
-  width: 60%;
-  margin-top: 100px;
-  
+.logo {
+  width: 80%;
+  margin-top: 0px;
 }
 
-.iniciar{
-  background: blue;
-  font-size: 40px;
-  border: 8px solid blue;
-  margin-top: 120px;
-  color: yellow;
+.iniciar {
+  background: #00ffff;
+  font-size: 45px;
+  border: 15px solid #00bfff;
+  margin-top: 80px;
+  color: 1b0033;
   padding: 10px 20px 10px 20px;
 }
 
 .tela-pergunta {
   width: 100%;
   height: 100vh;
-  background: yellow;
+  background: #1b0033;
   text-align: center;
 }
 
 .cerebro {
   width: 50%;
   margin-top: 50px;
-  margin-bottom: 50px;
-  
+  margin-bottom: 20px;
 }
 
 .pergunta {
   background: white;
-  width: 70%;
+  width: 80%;
   font-size: 30px;
   padding: 30px 20px 30px 20px;
   margin: 0 auto;
-
 }
 
- .botao-responder{
-   background: white;
-   padding-top: 10px 20px 10px 20px;
-   font-size: 25px;
-   border: none;
-   margin-top: 20px;
- }
-  .botao-responder:active{
-    background: lightgray;
-  }
-  
+.botao-responder {
+  background: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 25px;
+  border: none;
+  margin-top: 20px;
+}
+
+.botao-responder:active {
+  background: #1b0033;
+}

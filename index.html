@@ -1,41 +1,40 @@
 
-<html>
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="estilo.css" type="text/css" media="all" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="estilo.css" type="text/css" media="all" />
 </head>
-
 <body>
-  <div class="tela-inicial" style="display:none">
-    <img class=logo src="logo.png" alt="">
-    
-    <br />
-    
-    <button class="Iniciar">
-      Iniciar
-    </button>
-    
-  </div>
-  
-  <div class="tela-pergunta">
-    <img class=cerebro src="cerebro.png" alt="">
-    
-    <div class="pergunta">Quando o Brasil ganhou o penta ?</div>
-  
-  
-  <button class="botao-responder">2002</button> 
-  <br />
-  <button class="botao-responder">1998</button>
-  <br />
-  <button class="botao-responder">2006</button>
-  <br />
-  <button class="botao-responder">1994</button>
-  
-  
-  </div>
-</body>
+    <div class="tela-inicial" style="display: block">
+        <img class="logo" src="logo.png" alt="" />
+        <br />
+        <button class="iniciar">iniciar</button>
+    </div>
 
+    <div class="tela-pergunta" style="display:none">
+        <img class="cerebro" src="celebro.png" alt="" />
+        <div class="pergunta"></div>
+
+        <button class="botao-responder opcao0"></button>
+        <br />
+        <button class="botao-responder opcao1"></button>
+        <br />
+        <button class="botao-responder opcao2"></button>
+        <br />
+        <button class="botao-responder opcao3"></button>
+    </div>
+
+    <div class="tela-acertou" style="display:none">
+        <img class="acertou" src="ganhou.png" />
+    </div>
+
+    <div class="tela-errou" style="display:none">
+        <img class="errou" src="perdeu.png" />
+    </div>
+
+    <script src="logica.js"></script>
+</body>
 </html>
