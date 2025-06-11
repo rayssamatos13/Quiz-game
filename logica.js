@@ -1,6 +1,6 @@
 
 listaPerguntas = [
-    {pergunta : "Qual o maior ser vivo?",
+    {pergunta : "Qual o maior criatura vivo?",
     opcoes : [
         "Baleia azul",
         "Fundo de mel",
