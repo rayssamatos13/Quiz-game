@@ -57,3 +57,36 @@ body {
 .botao-responder:active {
   background: #1b0033;
 }
+.tela-acertou {
+  width: 100%;
+  height: 100vh;
+  background: #1b0033;
+  text-align: center;
+}
+.acertou {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.tela-errou {
+  width: 100%;
+  height: 100vh;
+  background: #1b0033;
+  text-align: center;
+}
+.errou {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.tela-final {
+  width: 100%;
+  height: 100vh;
+  background: #1b0033;
+  text-align: center;
+}
+.final {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
